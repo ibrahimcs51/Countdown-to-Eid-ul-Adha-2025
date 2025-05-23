@@ -21,6 +21,10 @@ const countdown = setInterval(function() {
         return;
     }
     
+    //   function updatetex(){
+    //     var greeting=document.getElementsByClassName("greeting")
+    //     greeting.textContent="kher mubrak" ;
+    //   }
     // Time calculations for days, hours, minutes and seconds
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -32,5 +36,28 @@ const countdown = setInterval(function() {
     document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
     document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
     document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+   
     
+
+
+
+
+
 }, 1000);
+function Updatebtn(){
+    var main=document.getElementById("main")
+    main.id="box" 
+}
+ function updatetex(){
+        var greeting=document.getElementsByClassName("greeting")
+        greeting.textContent="kher mubrak" ;
+      }
+
+     var count=0;
+
+      function abc(){
+        console.log(count++)
+        count+3;
+
+      }
+      setInterval(abc,1000) 

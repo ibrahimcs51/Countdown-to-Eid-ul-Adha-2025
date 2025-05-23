@@ -95,3 +95,17 @@ h1 {
         font-size: 2rem;
     }
 }
+#main{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 3px solid yellow;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(4, 255, 0);
+    border: 3px solid yellow;
+}
+
+
