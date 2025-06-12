@@ -1,6 +1,6 @@
 
 // Eid ul Adha 2025 expected date (June 7, 2025)
-const eidDate = new Date('June 7, 2025 00:00:00').getTime();
+const eidDate = new Date('may 27, 2026 00:00:00').getTime();
 
 // Update the countdown every second
 const countdown = setInterval(function() {
